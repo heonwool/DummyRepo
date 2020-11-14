@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "stdlib.h"
 
 int main(int argc, char ** argv) {
 	FILE *fp;
@@ -6,8 +7,7 @@ int main(int argc, char ** argv) {
 
 	int c;
 
-	for(int i = 0; i < len(argv[1]); i++)
-		printf("%c", argv[1][i]);
+	printf("%d\n", atoi(argv[1]));
 
 	if (fp == NULL) {
 		printf("failed to open files\n");
