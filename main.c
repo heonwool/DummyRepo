@@ -8,7 +8,7 @@ int main(int argc, char ** argv) {
 	int c;
 
 	printf("%d\n", atoi(argv[1]));
-
+/*
 	if (fp == NULL) {
 		printf("failed to open files\n");
 	}
@@ -18,5 +18,5 @@ int main(int argc, char ** argv) {
 	}
 
 	fclose(fp);
-	return 0;
+*/	return 0;
 }
