@@ -6,6 +6,9 @@ int main(int argc, char ** argv) {
 
 	int c;
 
+	for(int i = 0; i < len(argv[1]); i++)
+		printf("%c", argv[1][i]);
+
 	if (fp == NULL) {
 		printf("failed to open files\n");
 	}
